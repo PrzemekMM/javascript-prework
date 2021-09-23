@@ -6,14 +6,25 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons">
+	<header>
+	<h2>Kamień papier nożyce</h2>
+	<h4>Gra składa się z kolejnych tur. W każdej turze obydwaj gracze, na umówiony sygnał, szybko wystawiają przed siebie dłoń, pokazującą symbol papieru, kamienia lub nożyc. Gracz, który pokazał silniejszy symbol, otrzymuje jeden punkt. W przypadku pokazania dwóch takich samych symboli następuje remis – punktu brak. Oto hierarchia symboli:</h4>
+	<ul>
+		<li>nożyce są silniejsze od papieru, ponieważ go tną,</li>
+		<li>kamień jest silniejszy od nożyc, ponieważ je tępi,</li>
+		<li>papier jest silniejszy od kamienia, ponieważ go owija.,</li>
+	</ul>
+	<h4>Gracz, który pierwszy uzyska umówioną wcześniej ilość punktów, wygrywa partię.</h4>
+	</header>
+	<div class="container">		
+		<div id="buttons ">
 			<button id="button-rock">Kamień</button>
 			<button id="button-paper">Papier</button>
 			<button id="button-scissors">Nożyce</button>
 		</div>
-		<div id="messages"></div>
 	</div>
+		<div id="messages"></div>
+	
 	<script src="js/function.js"></script>
 	<script src="js/script.js"></script>
 </body>

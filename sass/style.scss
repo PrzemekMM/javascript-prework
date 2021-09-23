@@ -1,3 +1,20 @@
 body {
-    background-color: aqua;
+    background-color: rgb(170, 231, 231);
+    
+}
+header {
+h2 {
+    font-size: 30px;    
+}
+}
+.container {
+    display:flex    ;
+    justify-content: center;
+button {    
+    font-size: 20px;
+    width: 240px;
+    height: 68px;
+    background-color: #fed136;
+  }
+
 }

@@ -1,4 +1,20 @@
 body {
-  background-color: aqua;
+  background-color: #aae7e7;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNCQUFzQjtBQ0MxQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+header h2 {
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container button {
+  font-size: 20px;
+  width: 240px;
+  height: 68px;
+  background-color: #fed136;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlCQUFvQztBQ0N4Qzs7QURFQTtFQUVJLGVBQWU7QUNBbkI7O0FER0E7RUFDSSxhQUFnQjtFQUNoQix1QkFBdUI7QUNBM0I7O0FERkE7RUFJSSxlQUFlO0VBQ2YsWUFBWTtFQUNaLFlBQVk7RUFDWix5QkFBeUI7QUNFN0IiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
