@@ -1,6 +1,5 @@
 
 
-var argButtonName, buttonNozyce, buttonKamien, buttonPapier;
 
 /**
  * Describe this function...
@@ -8,7 +7,8 @@ var argButtonName, buttonNozyce, buttonKamien, buttonPapier;
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  
+  let argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 /**
  * Describe this function...
@@ -33,6 +33,7 @@ function getMoveName(argMoveId) {
  * Describe this function...
  */
 function displayResult(argPlayerMove, argComputerMove) {
+  
   console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
   if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
     printMessage('Wygrywasz!');
@@ -59,8 +60,7 @@ displayResult(playerMove, computerMove);
 
 buttonKamien = document.getElementById('button-rock');
 buttonPapier = document.getElementById('button-paper');
-buttonNozyce = document.getElementById('button-scissor');
+buttonNozyce = document.getElementById('button-scissors');
 buttonKamien.addEventListener('click', function(){ buttonClicked('kamień'); });
 buttonPapier.addEventListener('click', function(){ buttonClicked('papier'); });
 buttonNozyce.addEventListener('click', function(){ buttonClicked('nożyce'); });
-
